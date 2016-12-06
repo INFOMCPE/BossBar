@@ -1,0 +1,19 @@
+name: BossBar
+main: opkiler22789\BossBar
+version: 1.2
+api: 2.0.0
+authors: opkiler22789 и WMaster
+website: infomcpe.ru
+commands:
+  bb:
+    default: true
+    description: Меняем бос бар
+    aliases: [bossbar]
+
+permissions:
+  bossbar.del:
+    description: Разрешение удалять BossBar
+    default: op
+  bossbar.add:
+    description: Разрешение создавать BossBar
+    default: op
